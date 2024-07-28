@@ -1,0 +1,128 @@
+.header {
+    background-color: rgba(12, 11, 9, 0.61);
+}
+
+.branding {
+    background-color: rgba(12, 11, 9, 0.61);
+    min-height: 60px;
+    padding: 10px 0;
+    transition: 0.3s;
+
+}
+
+#navbarNavDropdown {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 15px !important;
+}
+
+.btn-GAA {
+    position: absolute;
+    right: 90px;
+    top: 16%;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 1;
+    background-color: #2986E2 !important;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 20px !important;
+}
+/*** Hero - Section **/
+.carousel-control-prev {
+    position: absolute;
+    top: 45%;
+    left: 22px;
+    padding: 20px;
+    color: #fff;
+    height: 65px;
+    width: 65px;
+    z-index: 4px;
+    border-radius: 32.5px;
+    background-color: rgba(12, 11, 9, 0.61);
+}
+.carousel-control-next {
+    position: absolute;
+    top: 45%;
+    right: 22px;
+    padding: 20px;
+    color: #fff;
+    height: 65px;
+    width: 65px;
+    z-index: 4px;
+    border-radius: 32.5px;
+    background-color: rgba(12, 11, 9, 0.61);
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 76px;
+   margin-right: 150px !important;
+}
+
+.carousel-caption .primary {
+    background-color: #2986E2;
+    width: 55%;
+    height: 80px !important;
+}
+
+.dark {
+    width: 50%;
+    height: 80px !important;
+    background-color: #363636;
+}
+
+.dark-subtle {
+    width: 50%;
+    background-color: rgba(12, 11, 9, 0.61);
+    height: 55px !important;
+}
+.rounded-big{
+    position: relative;
+    right: 330px;
+}
+.rounded{
+    background-color: #F36429 !important;
+    color: #fff;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+    font-weight: 600;
+}
+.nad {
+    background: linear-gradient(rgba(47, 138, 227, 1), rgba(47, 138, 227, 0.9)), url(images/24.jpg);
+    background-size: contain;
+
+}
+
+.pics {
+    background: url(images/bg/background2.png);
+    background-attachment: fixed;
+}
+
+.pn {
+    background-color: transparent;
+    border: none;
+    padding: 13px 25px;
+    position: relative;
+    left: 15px;
+    font-size: 12px;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.pn:hover {
+    background-color: #2986E2;
+    border-radius: 25px !important;
+    transition: all .3s ease-in-out;
+}
+
+.sty-icon {
+    position: relative;
+    width: 100%;
+}
